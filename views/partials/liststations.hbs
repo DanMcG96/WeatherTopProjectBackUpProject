@@ -1,0 +1,22 @@
+{{#each station}}
+ <section class="ui inverted cream stacked segment">
+    <h2 class="ui header">
+      {{title}} <i class="{{weatherIcon}} icon"></i>
+    </h2>
+    <h3>
+     Lat: {{latitude}}°
+    </h3>
+    <h3>
+     Long: {{longitude}}°
+   </h3>
+    <p>
+      Open to see weather information for {{title}}
+    </p>
+    <a href="/station/{{id}}" class="ui inverted icon button">
+      <i class="icon blue folder open"></i>
+    </a>
+    <a href="/dashboard/deletestation/{{id}}" class="ui inverted icon button">
+      <i class="red icon trash"></i>
+    </a>
+  </section>
+{{/each}}

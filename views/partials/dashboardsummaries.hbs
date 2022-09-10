@@ -1,0 +1,79 @@
+<div class="ui five doubling inverted green cards">
+  
+  <!-- Title Card -->
+  <div class="card">
+    <h3></h3>
+    <h3 class="ui centre aligned middle aligned yellow header">
+      {{title}}
+    </h3>
+    <h4 class="ui centre aligned middle aligned yellow header">
+      Lat: {{latitude}}°
+    </h4>
+    <h4 class="ui centre aligned middle aligned yellow header">
+      Long: {{longitude}}°
+    </h4>
+  </div>
+  
+  <!-- Code Card -->
+  <div class="card">
+    <h3></h3>
+    <h3 class="ui header centre aligned middle aligned yellow header">
+     <!-- <i class="right floated huge ${_icon} ${_colour} icon"></i> -->
+      
+      Weather: <br><br>
+      {{doWeather}}
+    </h3>
+  </div>
+  
+  <!--Temp Card -->
+  <div class="card">
+    <h3>
+    </h3>
+    <h3 class="ui header centre aligned middle aligned yellow header">
+    <i class="right floated huge thermometer three quarters red icon"></i> 
+    Temperature:
+    {{station.lastReading.temp}} ℃ <br><br>
+    {{station.tempInFarenheit}} ℉ <br><br>
+    </h3>
+    <h5 class="ui header centre aligned middle aligned yellow header">
+      Min:{{station.minTemp.temp}}<br><br> 
+      Max:{{station.maxTemp.temp}}
+    </h5>
+    <br><br>
+  </div>
+  
+  <!-- Wind Card -->
+  <div class="card">
+    <h3></h3>
+    <h3 class="ui left floated yellow header">
+      <i class="right floated huge grey wind icon"></i>
+      Wind Speed: <br><br>
+    {{station.beaufort}} bft <br><br> 
+    {{station.lastReading.windSpeed}} km/h <br><br>
+    Feels like: {{station.windChill}} ℃ <br><br>
+    Wind Dir: {{station.windCompass}}
+  </h3>
+    <h5 class="ui header centre aligned middle aligned yellow header">
+      Min:{{station.minWindSpeed.windSpeed}}<br><br> 
+      Max:{{station.maxWindSpeed.windSpeed}}
+    </h5>
+  </div>
+  
+  <!-- Pressure Card -->
+  <div class="card">
+    <h3></h3>
+    <h3 class="ui header centre aligned middle aligned yellow header">
+      <i class="right floated huge orange arrows alternate icon"></i>
+      Pressure: <br><br>
+    {{station.lastReading.pressure}} hPa
+    </h3> 
+    <h5 class="ui header centre aligned middle aligned yellow header">
+      Min:{{station.minPressure.pressure}}<br><br> 
+      Max:{{station.maxPressure.pressure}}
+    </h5>
+  </div>
+ 
+</div>
+
+
+    
