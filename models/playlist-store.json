@@ -1,0 +1,279 @@
+{
+  "stationCollection": [
+    {
+      "id": "f7fce370-2f9d-11ed-b54a-37854ba84214",
+      "userid": "e32e4cf0-2f8d-11ed-a25d-9d98c8bf9e58",
+      "title": "hi",
+      "readings": [
+        {
+          "id": "f7fd0a80-2f9d-11ed-b54a-37854ba84214",
+          "userid": "e32e4cf0-2f8d-11ed-a25d-9d98c8bf9e58",
+          "code": "100",
+          "temp": "1",
+          "windSpeed": "1",
+          "windDirection": "10",
+          "pressure": "1000"
+        }
+      ]
+    },
+    {
+      "id": "1073a2c0-2fa0-11ed-b800-6da8b3053eeb",
+      "userid": "fec321e0-2f9f-11ed-b800-6da8b3053eeb",
+      "title": "brand new station",
+      "readings": [
+        {
+          "id": "1073a2c1-2fa0-11ed-b800-6da8b3053eeb",
+          "userid": "fec321e0-2f9f-11ed-b800-6da8b3053eeb",
+          "code": "100",
+          "temp": "1",
+          "windSpeed": "1",
+          "windDirection": "10",
+          "pressure": "1000"
+        },
+        {
+          "id": "b0873d00-2fc1-11ed-be83-fd6ad2682f66",
+          "code": "100",
+          "temp": "10",
+          "windSpeed": "10",
+          "windDirection": "10",
+          "pressure": "10"
+        },
+        {
+          "id": "767c0c50-2fc4-11ed-8c98-8b7d79806d77",
+          "code": "145",
+          "temp": "30",
+          "windSpeed": "30",
+          "windDirection": "30",
+          "pressure": "30"
+        },
+        {
+          "id": "cfd292a0-2fc5-11ed-8531-6f43af45f15b",
+          "code": "39",
+          "temp": "100",
+          "windSpeed": "100",
+          "windDirection": "100",
+          "pressure": "100"
+        }
+      ]
+    },
+    {
+      "id": "e729fae0-2fa9-11ed-9c51-dd37e390cefc",
+      "userid": "fec321e0-2f9f-11ed-b800-6da8b3053eeb",
+      "title": "Dunbeg",
+      "readings": [
+        {
+          "id": "e72a21f0-2fa9-11ed-9c51-dd37e390cefc",
+          "userid": "fec321e0-2f9f-11ed-b800-6da8b3053eeb",
+          "code": "100",
+          "temp": "1",
+          "windSpeed": "1",
+          "windDirection": "10",
+          "pressure": "1000"
+        },
+        {
+          "id": "f4cd30e0-2fa9-11ed-9c51-dd37e390cefc",
+          "code": "300",
+          "temp": "10",
+          "windSpeed": "20",
+          "windDirection": "20",
+          "pressure": "1000"
+        },
+        {
+          "id": "b3193480-2fab-11ed-bd89-cfdae67cd468",
+          "code": "500",
+          "temp": "35",
+          "windSpeed": "44",
+          "windDirection": "77",
+          "pressure": "1004"
+        },
+        {
+          "id": "702cfbb0-2fac-11ed-9afd-8db409e2108e",
+          "code": "200",
+          "temp": "9",
+          "windSpeed": "15",
+          "windDirection": "42",
+          "pressure": "999"
+        },
+        {
+          "id": "7dfbdf20-2fb8-11ed-a23b-c9c6fea91d5f",
+          "code": "300",
+          "temp": "25",
+          "windSpeed": "22",
+          "windDirection": "22",
+          "pressure": "500"
+        }
+      ]
+    },
+    {
+      "id": "756d5410-2fc7-11ed-9555-578bdc29c05b",
+      "userid": "fec321e0-2f9f-11ed-b800-6da8b3053eeb",
+      "title": "Pasadena",
+      "readings": [
+        {
+          "id": "756d7b20-2fc7-11ed-9555-578bdc29c05b",
+          "userid": "fec321e0-2f9f-11ed-b800-6da8b3053eeb",
+          "code": "100",
+          "temp": "1",
+          "windSpeed": "1",
+          "windDirection": "10",
+          "pressure": "1000"
+        }
+      ]
+    },
+    {
+      "id": "760b0e10-30a0-11ed-8104-9103c813fac2",
+      "userid": "cada6e20-306b-11ed-9676-c352957f350d",
+      "title": "Calverstown",
+      "latitude": 15.43,
+      "longitude": -9.33,
+      "readings": [
+        {
+          "id": "760b0e11-30a0-11ed-8104-9103c813fac2",
+          "day": 6,
+          "month": 8,
+          "year": 2022,
+          "m": "12:35:25 AM",
+          "code": "100",
+          "temp": "1",
+          "windSpeed": "1",
+          "windDirection": "10",
+          "pressure": "1000"
+        },
+        {
+          "id": "230b4900-3145-11ed-b6e9-2d33d47a78aa",
+          "hours": 21,
+          "minutes": 14,
+          "seconds": 12,
+          "amOrPm": "PM",
+          "Trend": "N/A",
+          "hoursFormatCorrection": null,
+          "minutesFormatCorrection": null,
+          "secondsFormatCorrection": null,
+          "date": "9/10/2022",
+          "code": "1",
+          "temp": 2,
+          "windSpeed": 1,
+          "windDirection": 20,
+          "pressure": 20
+        },
+        {
+          "id": "a95c8230-3145-11ed-8fa0-97b47bc1e14f",
+          "hours": 21,
+          "minutes": 17,
+          "seconds": 58,
+          "amOrPm": "PM",
+          "Trend": "N/A",
+          "hoursFormatCorrection": null,
+          "minutesFormatCorrection": null,
+          "secondsFormatCorrection": null,
+          "date": "9/10/2022",
+          "code": "2",
+          "temp": 3,
+          "windSpeed": 4,
+          "windDirection": 4,
+          "pressure": 4
+        },
+        {
+          "id": "8ef50f10-3146-11ed-9816-abb283746ea1",
+          "hours": 21,
+          "minutes": 24,
+          "seconds": 23,
+          "amOrPm": "PM",
+          "hoursFormatCorrection": null,
+          "minutesFormatCorrection": null,
+          "secondsFormatCorrection": null,
+          "date": "9/10/2022",
+          "code": "2",
+          "temp": 4,
+          "windSpeed": 2,
+          "windDirection": 3,
+          "pressure": 3
+        },
+        {
+          "id": "ad4b4130-3148-11ed-82f0-039cc20a0e2b",
+          "hours": 21,
+          "minutes": 39,
+          "seconds": 33,
+          "amOrPm": "PM",
+          "hoursFormatCorrection": null,
+          "minutesFormatCorrection": null,
+          "secondsFormatCorrection": null,
+          "date": "9/10/2022",
+          "code": "100",
+          "temp": 10,
+          "windSpeed": 10.8,
+          "windDirection": 10,
+          "pressure": 10
+        },
+        {
+          "id": "2eb1d260-314a-11ed-b36c-a726e847a470",
+          "hours": 21,
+          "minutes": 50,
+          "seconds": 19,
+          "amOrPm": "PM",
+          "hoursFormatCorrection": null,
+          "minutesFormatCorrection": null,
+          "secondsFormatCorrection": null,
+          "date": "9/10/2022",
+          "code": "10",
+          "temp": 10,
+          "windSpeed": 10,
+          "windDirection": 10,
+          "pressure": 10
+        },
+        {
+          "id": "bc2f6200-3150-11ed-b272-a162d39ed133",
+          "hours": 22,
+          "minutes": 37,
+          "seconds": 14,
+          "amOrPm": "PM",
+          "hoursFormatCorrection": null,
+          "minutesFormatCorrection": null,
+          "secondsFormatCorrection": null,
+          "date": "9/10/2022",
+          "code": "100",
+          "temp": 10,
+          "windSpeed": 10,
+          "windDirection": 10,
+          "pressure": 10
+        }
+      ]
+    },
+    {
+      "id": "c1ac2a20-314a-11ed-b36c-a726e847a470",
+      "userid": "cada6e20-306b-11ed-9676-c352957f350d",
+      "firstName": "hutch",
+      "title": "Narraghmore",
+      "latitude": 34.25,
+      "longitude": 120.9,
+      "readings": [
+        {
+          "id": "c1ac5130-314a-11ed-b36c-a726e847a470",
+          "code": "100",
+          "temp": "1",
+          "windSpeed": "1",
+          "windDirection": "10",
+          "pressure": "1000"
+        }
+      ]
+    },
+    {
+      "id": "14ff5330-3152-11ed-ab00-49fb76be0fa7",
+      "userid": "f5e968a0-3151-11ed-ab00-49fb76be0fa7",
+      "firstName": "daisy",
+      "title": "Clane",
+      "latitude": 15,
+      "longitude": 23,
+      "readings": [
+        {
+          "id": "14ff5331-3152-11ed-ab00-49fb76be0fa7",
+          "code": "100",
+          "temp": "1",
+          "windSpeed": "1",
+          "windDirection": "10",
+          "pressure": "1000"
+        }
+      ]
+    }
+  ]
+}

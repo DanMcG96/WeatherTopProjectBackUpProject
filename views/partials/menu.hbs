@@ -1,0 +1,22 @@
+<nav class="ui inverted blue menu">
+  <header class="ui inverted header item"> WeatherTop Version 2 </header>
+  <div class="ui inverted teal right menu">
+    <a id="dashboard" class="item" href="/dashboard"> Dashboard  </a>
+    <a id="about" class="item" href="/about"> About </a>
+    <a href ="/user/edituser/{{user.email}}" class="ui icon button"><i class="user blue edit icon"></i></a>
+ <!--  <a id= "user" class="item" ><i class="user blue edit icon"></i></a> -->
+    <a id="logout"  class="item" href="/logout"><i class="sign out alternate icon"></i></a>
+  </div>
+</nav>
+
+<script>
+  $("#{{id}}").addClass("active item");
+</script>
+
+
+
+<!-- <a id="logout"  class="item" href="/logout"><i class="sign out alternate icon"></i></a>
+
+<a id="user" class="item" href="/user"><i class="user blue edit icon"></i></a> -->
+
+

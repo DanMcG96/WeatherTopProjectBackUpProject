@@ -1,0 +1,32 @@
+{{> menu}}
+
+<form class="ui equal width form" action="/reading/{{station.id}}/updatereading/{{reading.id}}" method="POST">
+  <div class="fields">
+    <div class="field">
+      <label>Code</label>
+      <input placeholder="Code" type="number" name="code" value="{{reading.code}}">
+    </div>
+    <div class="field">
+      <label>Temp</label>
+      <input placeholder="0.00°" type="text" name="temp" value="{{reading.temp}}">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Wind Speed</label>
+      <input placeholder="Wind Speed" type="text" name="windSpeed" value="{{reading.windSpeed}}">
+    </div>
+    <div class="field">
+      <label>Wind Direction</label>
+      <input placeholder="Wind Direction" type="text" name="windDirection" value="{{reading.windDirection}}">
+    </div>
+    <div class="field">
+      <label>Pressure</label>
+      <input placeholder="Pressure" type="text" name="pressure" value="{{reading.pressure}}">
+    </div>
+  </div>
+  <button class="ui blue submit button">Submit Changes</button>
+</form>
+
+
+<!-- input placeholder, type, name, value -->
