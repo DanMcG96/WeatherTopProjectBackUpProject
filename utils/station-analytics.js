@@ -21,11 +21,11 @@ const stationAnalytics = {
     return lastReading;
   },
   
-/* weatherIcon(request) {
+    weatherIcon(request) {
     const stationId = request.params.id;
     const station = stationStore.getStation(stationId); 
     const lastReading = stationAnalytics.getLastReading(station);
-    const weatherIcon = null;
+    let weatherIcon = null;
     if(lastReading.code > 0) {
    if (lastReading.code == 100)  { weatherIcon = "sun"; }
   else if(lastReading.code == 200) { weatherIcon = "cloud sun"; }
@@ -38,7 +38,7 @@ const stationAnalytics = {
     }
    return weatherIcon;
  },
-*/  
+  
   //Utility method to translate weather codes into human readable weather descriptions
   
   getWeatherCode(request) {
@@ -291,6 +291,19 @@ const stationAnalytics = {
     return maxPressure;
   },
   
+  hotIcon(request) {
+    const stationId = request.params.id;
+    const station = stationStore.getStation(stationId);
+    const lastReading = stationAnalytics.getLastReading(station);
+    let hot = null;
+    if(lastReading.temp > 20) {
+      hot = "red thermometer full icon"
+    }
+    else if(lastReading.temp >= 10 && lastReading.temp <= 20) { hot = "inverted thermometer half icon"
+  }
+    else if(lastReading.temp <= 10) { hot = "blue thermometer empty icon" }
+    return hot;
+  },
   
 };
     

@@ -25,6 +25,10 @@ const userstore = {
     return this.store.findOneBy(this.collection, { id: id });
   },
   
+  getUserByPassword(password) {
+    return this.store.findOneBy(this.collection, { password: password });
+  },
+  
   updateUser(user, updatedUser) {
     user.firstName = updatedUser.firstName;
     user.lastName = updatedUser.lastName;

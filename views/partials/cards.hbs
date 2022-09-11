@@ -3,24 +3,26 @@
   <!-- Title Card -->
   <div class="card">
     <h3></h3>
+    <h3> <i class="middle floated inverted huge map marker alternate icon"></i></h3>
     <h3 class="ui centre aligned middle aligned yellow header">
       {{station.title}}
     </h3>
-    <h4 class="ui centre aligned middle aligned yellow header">
+    <h3 class="ui centre aligned middle aligned yellow header">
       Lat: {{station.latitude}}°
-    </h4>
-    <h4 class="ui centre aligned middle aligned yellow header">
+    </h3>
+    <h3 class="ui centre aligned middle aligned yellow header">
       Long: {{station.longitude}}°
-    </h4>
+    </h3>
   </div>
   
   <!-- Code Card -->
   <div class="card">
     <h3></h3>
+    <h3>
+      <i class="middle floated huge yellow {{weatherIcon}} icon"></i>
+    </h3>
     <h3 class="ui header centre aligned middle aligned yellow header">
-     <!-- <i class="right floated huge ${_icon} ${_colour} icon"></i> -->
-      
-      Weather: <br><br>
+     Weather: <br><br>
       {{doWeather}}
     </h3>
   </div>
@@ -29,49 +31,51 @@
   <div class="card">
     <h3>
     </h3>
+    <h3>
+     <i class="middle floated huge red {{hot}} icon"></i> 
+    </h3>
     <h3 class="ui header centre aligned middle aligned yellow header">
-    <i class="right floated huge thermometer three quarters red icon"></i> 
     Temperature:
     {{lastReading.temp}} ℃ <br><br>
-    {{tempInFarenheit}} ℉ <br><br>
+    {{tempInFarenheit}} ℉ 
     </h3>
-    <h5 class="ui header centre aligned middle aligned yellow header">
+    <h3 class="ui header centre aligned middle aligned yellow header">
       Min:{{minTemp.temp}}<br><br> 
       Max:{{maxTemp.temp}}<br><br>
       Trend:{{Trend}} 
-    </h5>
+    </h3>
     <br><br>
   </div>
   
   <!-- Wind Card -->
   <div class="card">
-    <h3></h3>
+    <h3>
+    </h3>
+    <h3>
+      <i class="middle floated huge grey wind icon"></i>
+    </h3>
     <h3 class="ui left floated yellow header">
-      <i class="right floated huge grey wind icon"></i>
-      Wind Speed: <br><br>
+    Wind Speed: <br><br>
     {{beaufort}} bft <br><br> 
     {{lastReading.windSpeed}} km/h <br><br>
-    Feels like: {{windChill}} ℃ <br><br>
-    Wind Dir: {{windCompass}}
-  </h3>
-    <h5 class="ui header centre aligned middle aligned yellow header">
+      Feels like: {{windChill}} ℃ <br><br>
+    Wind Dir: {{windCompass}}<br><br>
       Min:{{minWindSpeed.windSpeed}}<br><br> 
       Max:{{maxWindSpeed.windSpeed}}
-    </h5>
-  </div>
+    </div>
   
   <!-- Pressure Card -->
   <div class="card">
     <h3></h3>
+    <h3>
+       <i class="middle floated huge orange arrows alternate icon"></i>
+    </h3>
     <h3 class="ui header centre aligned middle aligned yellow header">
-      <i class="right floated huge orange arrows alternate icon"></i>
       Pressure: <br><br>
-    {{lastReading.pressure}} hPa
-    </h3> 
-    <h5 class="ui header centre aligned middle aligned yellow header">
+    {{lastReading.pressure}} hPa<br><br>
       Min:{{minPressure.pressure}}<br><br> 
       Max:{{maxPressure.pressure}}
-    </h5>
+    
   </div>
  
 </div>

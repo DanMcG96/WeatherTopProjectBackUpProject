@@ -6,16 +6,19 @@ const stationStore = require("../models/station-store");
 const uuid = require("uuid");
 const stationAnalytics = require("../utils/station-analytics");
 
+
 const dashboard = {
+  
   index(request, response) {
     logger.info("dashboard rendering");
     const loggedInUser = accounts.getCurrentUser(request);
     const firstName = request.params.firstName;
-    
+    const station = stationStore.getUserStations(loggedInUser.id);
+   
     const viewData = {
       title: "WeatherTop 2 Dashboard",
       station: stationStore.getUserStations(loggedInUser.id),
-    };
+      };
     logger.info("about to render", stationStore.getAllStations());
     response.render("dashboard", viewData);
   },
