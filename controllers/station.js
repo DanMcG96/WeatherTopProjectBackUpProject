@@ -8,17 +8,17 @@ const uuid = require('uuid');
 
 
 const station = {
+  
   index(request, response) {
     const stationId = request.params.id;
     const station = stationStore.getStation(stationId); 
     const code = request.params.code;
       
-  //  const windSpeed = request.params.windSpeed;
+      const weatherIcon = stationAnalytics.weatherIcon(request);
       const windDirection = request.params.windDirection;
       const temp = request.params.temp;
       const lastReading = stationAnalytics.getLastReading(station);
       const doWeather = stationAnalytics.getWeatherCode(request);
-  
       const beaufort = stationAnalytics.getBeaufort(request);
       const tempInFarenheit = stationAnalytics.tempConversion(request);
       const windChill = stationAnalytics.windChill(request);
@@ -29,10 +29,9 @@ const station = {
       const maxWindSpeed = stationAnalytics.maxWindSpeed(station);
       const minPressure = stationAnalytics.minPressure(station);
       const maxPressure = stationAnalytics.maxPressure(station);
+      const hot = stationAnalytics.hotIcon(request);
       
-      
-  
-   logger.info('Station id = ' + stationId);
+  logger.info('Station id = ' + stationId);
     const viewData = {
       title: 'Station',
       station: stationStore.getStation(stationId),
@@ -49,12 +48,10 @@ const station = {
         maxWindSpeed: maxWindSpeed,
         minPressure: minPressure,
         maxPressure: maxPressure,
+        hot: hot,
+        weatherIcon
         
-        
-       
-      
-        
-    };
+  };
     response.render('station', viewData);
   },
   
